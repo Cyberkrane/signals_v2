@@ -10,7 +10,7 @@
     "href": "ng build --base-href ./",
     "del:docs": "del docs",
     "copy:dist": "copyfiles dist/signals_v2/* ./docs -f",
-    "build:github": "npm run del:docs && npm run href && npm run copy:dist"
+    "build:github": "npm run href && npm run copy:dist"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +22,8 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "angular-bootstrap": "^0.12.2",
+    "bootstrap": "^5.0.1",
     "copyfiles": "^2.4.1",
     "del-cli": "^5.0.0",
     "rxjs": "~7.8.0",
