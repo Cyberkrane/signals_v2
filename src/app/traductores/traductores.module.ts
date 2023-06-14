@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { ArgentinaComponent } from './argentina/argentina.component';
+
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ArgentinaComponent
+  ],
   imports: [
     CommonModule
   ]
