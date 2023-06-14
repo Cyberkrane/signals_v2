@@ -1,6 +1,6 @@
 {
-  "name": "signals",
-  "version": "0.0.0",
+  "name": "signals-v2",
+  "version": "2.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
@@ -42,5 +42,16 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "signals_v3"
+  },
+  "author": "Cyberkrane",
+  "license": "ISC"
 }
