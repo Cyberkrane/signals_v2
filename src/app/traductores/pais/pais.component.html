@@ -1,0 +1,23 @@
+<section class="row">
+    <article class="entrada">
+    <div class="column">
+
+      <form (ngSubmit)="traducir(palabras.value)">
+        <label for="palabras">{{ title }} </label>
+        <input type="text" [(ngModel)]="consulta" name="palabras" #palabras autofocus autocomplete="off" class="rounded" />
+        <button class="btn btn-primary w-25 mt-3" type="submit">{{translate}} </button>
+        <button class="btn btn-danger w-25 mt-3" (click)="reset()">{{clean}}</button>
+      </form>
+
+    </div>
+  </article>
+
+  <article class="salida">
+    <div *ngFor="let letra of laPalabra">
+      <div class="letra m-1">
+        <img src="{{ letra }}" alt="imagenes no encontradas" />
+      </div>
+    </div>
+  </article>
+  <app-footer></app-footer>
+</section>
