@@ -1,0 +1,148 @@
+section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  label{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  
+  @media (min-width: 280px) {
+    article{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .entrada,
+    .salida{
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+    form{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    label{
+      width: 100%;
+    }
+    input{
+      width:100%;
+    }
+    img {
+      width: 100%;
+    }
+    .letra{
+      width: 20vw;
+    }
+  }
+  
+  @media (min-width: 540px) {
+    li {
+      width: 30vw;
+      height: 20vh;
+    }
+  }
+  
+  @media (min-width: 740px) {
+    li {
+      width: 30vw;
+      height: 20vh;
+    }
+  }
+  
+  @media (min-width: 820px) {
+    li {
+      width: 30vw;
+      height: 20vh;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    li {
+      width: 30vw;
+      height: 43vh;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    article{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .entrada{
+      width: 25%;
+    }
+    .salida{
+      width: 70%;
+    }
+    form{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    label{
+      width: 100%;
+    }
+    input{
+      width:100%;
+    }
+    img {
+      width: 100%;
+    }
+    .letra{
+      width: 7vw;
+    }
+  }
+  @media (min-width: 1440px) {
+    article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .entrada{
+        width: 25%;
+      }
+      .salida{
+        width: 70%;
+      }
+      form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      label{
+        width: 100%;
+      }
+      input{
+        width:100%;
+      }
+      img {
+        width: 100%;
+      }
+      .letra{
+        width: 7vw;
+      }
+  }

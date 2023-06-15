@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ArgentinaComponent {
 
+  title: string = 'Quiero traducir esta palabra:';
+  translate: string = 'traducir';
+  clean: string = 'borrar';
+
+  paisSelecionado: string = 'Argentina';
 }

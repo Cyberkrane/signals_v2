@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
 import { AlfabetosModule } from './alfabetos/alfabetos.module';
+import { TraductoresModule } from './traductores/traductores.module';
 
 import { HomeComponent } from './home/home.component';
 
@@ -20,6 +21,7 @@ import { HomeComponent } from './home/home.component';
 
     AlfabetosModule,
     SharedModule,
+    TraductoresModule
     
   ],
   providers: [],
